@@ -1,5 +1,5 @@
-# Homework-Assignment-1
 # Homework Assignment 1 - RocketPool, $RPL, and rEth
+![rocketpool](https://miro.medium.com/max/1400/1*f4VImbYjouJjszFAa0f5Dw.png)
 ## Overview and Origin
 
 
@@ -20,6 +20,7 @@ https://au.linkedin.com/in/david-rugendyke-260a2a60#:~:text=David%20Rugendyke%20
 Rocket Pool is funded by seed money, the exact amount of money involved has not been disclosed, but the lead investor is Consensys Ventures, a blockchain startup capital venture firm based in Sacramento, California. 
 
 https://www.crunchbase.com/organization/rocket-pool
+___
 ## Business Activities:
 * What specific financial problem is the company or project trying to solve?
 
@@ -37,11 +38,25 @@ engineering blog or use sites like Stackshare to find this information.)
   Rocket Pool uses smart contracts, the smart node network, and minipool validators. Smart contracts are set up so that when a user deposits Eth, the smart contract automatically assigns them into a minipool run by a NO. 
 The Smart Node Network helps run the smart contracts, and communicates between Rocket Pool and Ethereum's Beaconchain. 
 Minipool validators are a form of smart contract, but is the core of Rocket Pool. They are created by NOs who deposit 16 Eth to start a node. The Minipool Validator contract then receives 16 Eth from stakers who do not want to run a node. Upon reaching the 32 Eth required to launch a validator, the validator is then sent to the Beaconchain's validator queue. 
+
+![howrplworks](https://rocketpool.net/images/infographic-rocket-pool-2.png1)
+#### A quick visual guide on how RocketPool works.
+---
 ## Landscape:
 * What domain of the financial industry is the company in?
+
+ 
+  Rocket Pool is part of the alternative finance industry. They are also in the infrastructure industry as they provide a service for the PoS system of Ethereum. 
 * What have been the major trends and innovations of this domain over the last 5-
 10 years?
+Alternative Finance and Blockchain have both made large improvements and developments in the past decade. Bitcoin, the technology that pioneered blockchain was invented in January 2009, after the 2008 Wall St crash as a reaction to traditional finance. Ethereum's whitepaper was published by Vitalik Buterin in 2013, with the mainnet going live in 2015. 
+The first mainstream crowdfunding site GoFundMe was created in 2010, but the concept of crowdfunding had been around the late 1990s. Due to the popularity it has spawned a number of similar websites such as Kickstarter, Indiegogo, and Seed Invest. These platforms have all raised large amounts of money for their projects, the largest being $376 million dollars for *Star Citizen*, an online Role Playing Game. 
+In the last 5 years developments such as DeFi, and Dexs (Decentralise Exchanges where orders are completed with liquidity pools rather than orderbooks) have emerged. The governance token RPL is traded currently only on Dexs. This allows release of tokens that do not have to be passed through the stringent checks of regulations in traditional finance. 
+In the last 5 years there was been a rapid growth in crowdfunding, with sites such as Patreon allowing individuals to be crowdfunded for their work. The rise of cryptocurrency has also spilled into crowdfunding, with supporters now able to directly send funds via crypto directly to their favourite projects. Social network Twitter recently added cryptocurrency tipping to verified accounts. 
+
 * What are the other major companies in this domain?
+
+  In this specific domain, Rocket Pool is competing with other Eth2 staking services such as Lido, Stakefish, and Staked.us. However centralised exchanges have also begun offering their own Eth2 staking, with exchanges such as Binance, Coinbase and Kraken. As Rocket Pool is the first Eth2 staking platform to utilise smart contracts there are not any similar competitors.
 ## Results
 * What has been the business impact of this company so far?
 * What are some of the core metrics that companies in this domain use to measure
