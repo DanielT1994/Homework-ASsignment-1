@@ -12,14 +12,14 @@
 * Who are the founders of the company?
  Rocket Pool was founded by David Rugendyke, a former developer at George Patterson Y & R. 
 
-https://au.linkedin.com/in/david-rugendyke-260a2a60#:~:text=David%20Rugendyke%20%2D%20Rocket%20Pool%20Founder,Solidity%20Developer%20%2D%20Rocket%20Pool%20%7C%20LinkedIn
+
 * How did the idea for the company (or project) come about?
 
   The idea of the company was founded by Ethereum switching from PoW (Proof of Work) to PoS (Proof of Stake). For an individual to operate a validator, a total of 32 Ether (the native token of the Ethereum network) is required. As of writing this is ~$135,000 AUD. Rocket Pool aims to decentralise the staking pool by lowering the amount needed to 16. This is done by having a Node Operator (NO) having 16 Eth, whilst those without 16 Eth can enter a pool, switching their Eth for rEth (a liquidity token representing the amount of Eth staked in the pool, given at a 1:1 ratio), to fill the rest of the 16 Eth required, a sort of crowdfunding method. 
 * How is the company funded? How much funding have they received?
 Rocket Pool is funded by seed money, the exact amount of money involved has not been disclosed, but the lead investor is Consensys Ventures, a blockchain startup capital venture firm based in Sacramento, California. 
 
-https://www.crunchbase.com/organization/rocket-pool
+
 ___
 ## Business Activities:
 * What specific financial problem is the company or project trying to solve?
@@ -39,8 +39,8 @@ engineering blog or use sites like Stackshare to find this information.)
 The Smart Node Network helps run the smart contracts, and communicates between Rocket Pool and Ethereum's Beaconchain. 
 Minipool validators are a form of smart contract, but is the core of Rocket Pool. They are created by NOs who deposit 16 Eth to start a node. The Minipool Validator contract then receives 16 Eth from stakers who do not want to run a node. Upon reaching the 32 Eth required to launch a validator, the validator is then sent to the Beaconchain's validator queue. 
 
-![howrplworks](https://rocketpool.net/images/infographic-rocket-pool-2.png1)
-#### A quick visual guide on how RocketPool works.
+![howrplworks](https://rocketpool.net/images/infographic-rocket-pool-2.png)
+#### A quick visual guide on how RocketPool works. Image taken from https://medium.com/rocket-pool/rocket-pool-101-faq-ee683af10da9
 ---
 ## Landscape:
 * What domain of the financial industry is the company in?
@@ -56,21 +56,63 @@ In the last 5 years there was been a rapid growth in crowdfunding, with sites su
 
 * What are the other major companies in this domain?
 
-  In this specific domain, Rocket Pool is competing with other Eth2 staking services such as Lido, Stakefish, and Staked.us. However centralised exchanges have also begun offering their own Eth2 staking, with exchanges such as Binance, Coinbase and Kraken. As Rocket Pool is the first Eth2 staking platform to utilise smart contracts there are not any similar competitors.
+  In this specific domain, Rocket Pool is competing with other Eth2 staking services such as Lido, Stakefish, and Staked.us. However centralised exchanges have also begun offering their own Eth2 staking, with exchanges such as Binance, Coinbase and Kraken. As Rocket Pool is the first Eth2 staking platform to utilise smart contracts there are not any similar competitors. In terms of alternative finance, competitors include yield aggregators and other DeFi services that offer competitive APR%s for the user's cryptocurrency holdings.
 ## Results
 * What has been the business impact of this company so far?
+  
+  Rocket Pool's impact on Eth2 staking has been significant. Beaconchain (the main Eth2 staking explorer) is planning on hosting a launch party. Other staking services have also been pushed to provide a fully decentralised solution to Eth2 staking. In terms of yield, many users feel safer using Rocket Pool's smart contract service for staking their Ethereum, rather than running a dedicated node. However, as of writing the project has not launched its mainnet yet, so how significant the impact is cannot be fully measured.
 * What are some of the core metrics that companies in this domain use to measure
 success? How is your company performing, based on these metrics?
+
+  Core metrics include % of Eth staked from circulating supply, volume of RPL traded, and ratio from RPL to Eth. Currently the ratio of RPL to Eth has recently hit a high of 0.011 RPL : 1 Eth. This ratio is important as the minimum required RPL to run a node is 1.6 Eth worth. Currently as mainnet has not launched it is not possible to see % of Eth staked. However, recently there was a critical bug found in the Node code that would allow multiple withdrawals that also affected other provider's nodes. 
+ 
 * How is your company performing relative to competitors in the same domain?
+
+  Currently as the project has not launched it is not possible to have an accurate figure. However, going by sentiment, a large number of current stakers would consider moving to Rocket Pool.
+
 ## Recommendations
 * If you were to advise the company, what products or services would you suggest
 they offer? (This could be something that a competitor offers, or use your
 imagination!)
+
+  Better PR, recently Rocket Pool had a launch delay due to a critical bug found on launch day. However, the staff were fairly active on Discord, but news was not shared outside that channel. I would suggest that they be more vocal on other channels when releasing news.
+  I would also advise Rocket Pool to up their current marketing strategy. Even though the product is niche, other staking serves currently have a large online presence, while Rocket Pool, having a superior product has a very small presence.
+  Currently, the only way to acquire RPL the governance token is to use UniSwap, a decentralised exchange, or an aggregator. This is a very high skill floor to get into Rocket Pool. I would suggest getting a listing on a centralised exchange, or if that is not possible being on more liquid swap sites.
 * Why do you think that offering this product or service would benefit the
 company?
+ 
+ As the service requires RPL to function it would make sense for ease of access to the governance token. This will provide: 
+ 
+  1. An easier location to acquire the governance token.
+  2. Solves liquidity issues. The token recently underwent a liquidity crunch which sent the price from $22 to $39 in the span of two days. This was due to the reliance on UniSwap, where liquidity was extremely low, which led to even small buys leading to huge swings in prices. 
 
+ 
 
 * What technologies would this additional product or service utilize?
-* Why are these technologies appropriate for your solution?
+  
+
+  Social Media. Rocket Pool and their team are currently not active on any social media other than Discord. This is not ideal as most people in the space of cryptocurrency are very new, and are not familiar with the very very niche options such as Rocket Pool. 
+  Centralised exchanges, even though against the fundamental idea of Rocket Pool (decentralised) is required due to the liquidity provided.
+ 
+ * Why are these technologies appropriate for your solution?
+
+   As the solution is very niche, it would benefit the team to have a more accessible option to access the service. Decentralisation is only viable as a solution if the solution is accessible to everyone. If the requirements, both technical and financial are too high then the service risks being centralised. 
 
 ## Appendix
+https://au.linkedin.com/in/david-rugendyke-260a2a60#:~:text=David%20Rugendyke%20%2D%20Rocket%20Pool%20Founder,Solidity%20Developer%20%2D%20Rocket%20Pool%20%7C%20LinkedIn
+
+https://www.crunchbase.com/organization/rocket-pool
+
+https://medium.com/rocket-pool/rocket-pool-101-faq-ee683af10da9
+
+https://beaconcha.in/pools
+
+https://beaconcha.in/stakingServices
+
+https://ethereum.org/en/eth2/staking/
+
+https://www.binance.com/en/eth2
+
+https://v2.info.uniswap.org/pair/0x70ea56e46266f0137bac6b75710e3546f47c855d
+
+
