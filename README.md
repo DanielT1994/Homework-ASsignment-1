@@ -74,14 +74,14 @@ success? How is your company performing, based on these metrics?
 * If you were to advise the company, what products or services would you suggest
 they offer? (This could be something that a competitor offers, or use your
 imagination!)
-
+* Why do you think that offering this product or service would benefit the
+company?
+  
   Better PR, recently Rocket Pool had a launch delay due to a critical bug found on launch day. However, the staff were fairly active on Discord, but news was not shared outside that channel. I would suggest that they be more vocal on other channels when releasing news.
   I would also advise Rocket Pool to up their current marketing strategy. Even though the product is niche, other staking serves currently have a large online presence, while Rocket Pool, having a superior product has a very small presence.
   Currently, the only way to acquire RPL the governance token is to use UniSwap, a decentralised exchange, or an aggregator. This is a very high skill floor to get into Rocket Pool. I would suggest getting a listing on a centralised exchange, or if that is not possible being on more liquid swap sites.
-* Why do you think that offering this product or service would benefit the
-company?
- 
- As the service requires RPL to function it would make sense for ease of access to the governance token. This will provide: 
+
+  As the service requires RPL to function it would make sense for ease of access to the governance token. This will provide: 
  
   1. An easier location to acquire the governance token.
   2. Solves liquidity issues. The token recently underwent a liquidity crunch which sent the price from $22 to $39 in the span of two days. This was due to the reliance on UniSwap, where liquidity was extremely low, which led to even small buys leading to huge swings in prices. 
